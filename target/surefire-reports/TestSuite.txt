@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 87.266 s <<< FAILURE! - in TestSuite
+shadhi.testing.WidgetsCheck.loginTest  Time elapsed: 62.869 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK1229', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.shaadi.android.ui.main...., appPackage: com.shaadi.android, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.shaadi.android.ui.main...., appPackage: com.shaadi.android, automationName: uiautomator2, noReset: true, platformName: android, udid: ZY2222Q8Q8}, deviceApiLevel: 23, deviceManufacturer: motorola, deviceModel: MotoG3, deviceName: ZY2222Q8Q8, deviceScreenDensity: 320, deviceScreenSize: 720x1280, deviceUDID: ZY2222Q8Q8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2, platform: LINUX, platformName: ANDROID, platformVersion: 6.0.1, statBarHeight: 48, takesScreenshot: true, udid: ZY2222Q8Q8, viewportRect: {height: 1136, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 398a3e35-35e9-4533-aaa7-68721e6036b9
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textMatches("Account Settings").instance(0))}
+	at shadhi.testing.WidgetsCheck.loginTest(WidgetsCheck.java:70)
+
+shadhi.testing.WidgetsCheck.quitApp  Time elapsed: 62.908 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK1229', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.shaadi.android.ui.main...., appPackage: com.shaadi.android, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.shaadi.android.ui.main...., appPackage: com.shaadi.android, automationName: uiautomator2, noReset: true, platformName: android, udid: ZY2222Q8Q8}, deviceApiLevel: 23, deviceManufacturer: motorola, deviceModel: MotoG3, deviceName: ZY2222Q8Q8, deviceScreenDensity: 320, deviceScreenSize: 720x1280, deviceUDID: ZY2222Q8Q8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2, platform: LINUX, platformName: ANDROID, platformVersion: 6.0.1, statBarHeight: 48, takesScreenshot: true, udid: ZY2222Q8Q8, viewportRect: {height: 1136, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 07096041-e581-4936-abc8-437e8326d707
+	at shadhi.testing.WidgetsCheck.quitApp(WidgetsCheck.java:77)
+
